@@ -1,27 +1,16 @@
-# APRL Technologies 
-**Building the Full-Stack Infrastructure for Embodied AI.**
+# APRL Technologies
 
-`[ Status: Stealth / Pre-Launch ]`
+Building low-cost, full-stack dev kits for physical AI.
 
-We are a robotics startup rooted in the UCSD engineering ecosystem, founded by the core team behind Qualcomm's 2025 and 2026 CES robotics showcases. 
+Founded by alumni from UCSD and Qualcomm's CES robotics team, we focus on the deployment bottleneck in embodied AI: getting state-of-the-art policies to run efficiently on edge hardware.
 
-Currently operating in stealth mode, APRL Technologies is dedicated to solving the deployment bottleneck in Physical AI. We are building a low-cost, full-stack development kit that bridges the gap between state-of-the-art policy models and edge hardware.
+[Status: Stealth]
 
-### ⚙️ Our Engineering Focus
-Most of our core development is currently in private repositories as we prepare for our initial launch. Our active R&D includes:
+Our core infrastructure code is currently in private repositories. We are actively working on:
+- Edge compute optimization (model quantization for NVIDIA Jetson Orin Nano & Qualcomm platforms)
+- Hardware-level control logic for heterogeneous actuator setups (e.g., HX-10HM main / HX-30HM secondary)
+- Standardized deployment pipelines for physical evaluation
 
-* **Edge Compute Optimization:** Rigorous board-level adaptation and model quantization for low-latency inference on NVIDIA Jetson Orin Nano and Qualcomm platforms.
-* **Hardware-Level Integration:** Deep tuning and control logic mapping for heterogeneous actuator setups (e.g., optimizing kinematics for HX-10HM motors on main arms and HX-30HM on secondary arms).
-* **Unified Benchmarking:** Developing standardized deployment pipelines to evaluate foundation models on physical hardware reliably.
+We believe in open robotics. Later this year, we plan to open-source our board-specific deployment environments and quantized baselines to help the community benchmark models on real hardware.
 
-### 🗺️ Open Source Roadmap
-We believe the future of robotics is open. While our core hardware abstractions are currently private, our roadmap includes open-sourcing:
-1.  Board-specific deployment scripts and Docker environments.
-2.  Quantized baseline models optimized for edge inference.
-3.  Standardized evaluation benchmarks for reproducible physical AI research.
-
-### 📍 Location
 San Diego, CA
-
----
-*We are actively looking to collaborate with teams providing reproducible hardware environments (like the OpenArm Cell) to benchmark our deployment pipelines. If you are building the future of physical AI, let's connect.*
